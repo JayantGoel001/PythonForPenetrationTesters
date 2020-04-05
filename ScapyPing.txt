@@ -1,0 +1,15 @@
+#
+# (base) C:\Users\jgoel>ping dgtsec.com
+#
+# Pinging dgtsec.com [162.241.24.197] with 32 bytes of data:
+# Reply from 162.241.24.197: bytes=32 time=528ms TTL=42
+# Reply from 162.241.24.197: bytes=32 time=449ms TTL=42
+# Reply from 162.241.24.197: bytes=32 time=304ms TTL=42
+# Reply from 162.241.24.197: bytes=32 time=338ms TTL=42
+#
+# Ping statistics for 162.241.24.197:
+#     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+# Approximate round trip times in milli-seconds:
+#     Minimum = 304ms, Maximum = 528ms, Average = 404ms
+#
+# (base) C:\Users\jgoel>

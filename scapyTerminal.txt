@@ -1,0 +1,1219 @@
+#
+# (base) C:\Users\jgoel>pip install python-scapy
+# Collecting python-scapy
+#   ERROR: Could not find a version that satisfies the requirement python-scapy (from versions: none)
+# ERROR: No matching distribution found for python-scapy
+#
+# (base) C:\Users\jgoel>pip install python-scapy PACKAGE==2.4.3
+# Collecting python-scapy
+#   ERROR: Could not find a version that satisfies the requirement python-scapy (from versions: none)
+# ERROR: No matching distribution found for python-scapy
+#
+# (base) C:\Users\jgoel>pip install python3-scapy PACKAGE==2.4.3
+# Collecting python3-scapy
+#   ERROR: Could not find a version that satisfies the requirement python3-scapy (from versions: none)
+# ERROR: No matching distribution found for python3-scapy
+#
+# (base) C:\Users\jgoel>pip install python-scapy==2.4.3
+# Collecting python-scapy==2.4.3
+#   ERROR: Could not find a version that satisfies the requirement python-scapy==2.4.3 (from versions: none)
+# ERROR: No matching distribution found for python-scapy==2.4.3
+#
+# (base) C:\Users\jgoel>pip install scapy==2.4.3
+# Collecting scapy==2.4.3
+#   Using cached https://files.pythonhosted.org/packages/52/e7/464079606a9cf97ad04936c52a5324d14dae36215f9319bf3faa46a7907d/scapy-2.4.3.tar.gz
+# Building wheels for collected packages: scapy
+#   Building wheel for scapy (setup.py) ... done
+#   Created wheel for scapy: filename=scapy-2.4.3-py2.py3-none-any.whl size=1043878 sha256=27807d2afd82bf984941cc6abfdc6f8f69622f07d9b71629031a041cc6bac917
+#   Stored in directory: C:\Users\jgoel\AppData\Local\pip\Cache\wheels\95\bf\51\905b3e84ec4ca910ce4ae92173c7334623105a265bdd1d9438
+# Successfully built scapy
+# Installing collected packages: scapy
+# Successfully installed scapy-2.4.3
+#
+# (base) C:\Users\jgoel>scapy
+# INFO: Can't import PyX. Won't be able to use psdump() or pdfdump().
+# WARNING: No route found for IPv6 destination :: (no default route?)
+#
+#                      aSPY//YASa
+#              apyyyyCY//////////YCa       |
+#             sY//////YSpcs  scpCY//Pp     | Welcome to Scapy
+#  ayp ayyyyyyySCP//Pp           syY//C    | Version 2.4.3
+#  AYAsAYYYYYYYY///Ps              cY//S   |
+#          pCCCCY//p          cSSps y//Y   | https://github.com/secdev/scapy
+#          SPPPP///a          pP///AC//Y   |
+#               A//A            cyP////C   | Have fun!
+#               p///Ac            sC///a   |
+#               P////YCpc           A//A   | Craft packets like I craft my beer.
+#        scccccp///pSP///p          p//Y   |               -- Jean De Clerck
+#       sY/////////y  caa           S//P   |
+#        cayCyayP//Ya              pY/Ya
+#         sY/PsY////YCc          aC//Yp
+#          sc  sccaCY//PCypaapyCP//YSs
+#                   spCPY//////YPSps
+#                        ccaacs
+#                                        using IPython 7.8.0
+# >>> ls()
+# AH         : AH
+# AKMSuite   : AKM suite
+# ARP        : ARP
+# ASN1P_INTEGER : None
+# ASN1P_OID  : None
+# ASN1P_PRIVSEQ : None
+# ASN1_Packet : None
+# ATT_Error_Response : Error Response
+# ATT_Exchange_MTU_Request : Exchange MTU Request
+# ATT_Exchange_MTU_Response : Exchange MTU Response
+# ATT_Execute_Write_Request : Execute Write Request
+# ATT_Execute_Write_Response : Execute Write Response
+# ATT_Find_By_Type_Value_Request : Find By Type Value Request
+# ATT_Find_By_Type_Value_Response : Find By Type Value Response
+# ATT_Find_Information_Request : Find Information Request
+# ATT_Find_Information_Response : Find Information Response
+# ATT_Handle : ATT Short Handle
+# ATT_Handle_UUID128 : ATT Handle (UUID 128)
+# ATT_Handle_Value_Indication : Handle Value Indication
+# ATT_Handle_Value_Notification : Handle Value Notification
+# ATT_Handle_Variable : None
+# ATT_Hdr    : ATT header
+# ATT_Prepare_Write_Request : Prepare Write Request
+# ATT_Prepare_Write_Response : Prepare Write Response
+# ATT_Read_Blob_Request : Read Blob Request
+# ATT_Read_Blob_Response : Read Blob Response
+# ATT_Read_By_Group_Type_Request : Read By Group Type Request
+# ATT_Read_By_Group_Type_Response : Read By Group Type Response
+# ATT_Read_By_Type_Request : Read By Type Request
+# ATT_Read_By_Type_Request_128bit : Read By Type Request
+# ATT_Read_By_Type_Response : Read By Type Response
+# ATT_Read_Multiple_Request : Read Multiple Request
+# ATT_Read_Multiple_Response : Read Multiple Response
+# ATT_Read_Request : Read Request
+# ATT_Read_Response : Read Response
+# ATT_Write_Command : Write Request
+# ATT_Write_Request : Write Request
+# ATT_Write_Response : Write Response
+# BOOTP      : BOOTP
+# BTLE       : BT4LE
+# BTLE_ADV   : BTLE advertising header
+# BTLE_ADV_DIRECT_IND : BTLE ADV_DIRECT_IND
+# BTLE_ADV_IND : BTLE ADV_IND
+# BTLE_ADV_NONCONN_IND : BTLE ADV_NONCONN_IND
+# BTLE_ADV_SCAN_IND : BTLE ADV_SCAN_IND
+# BTLE_CONNECT_REQ : BTLE connect request
+# BTLE_DATA  : BTLE data header
+# BTLE_PPI   : BTLE PPI header
+# BTLE_RF    : BTLE RF info header
+# BTLE_SCAN_REQ : BTLE scan request
+# BTLE_SCAN_RSP : BTLE scan response
+# CookedLinux : cooked linux
+# CtrlPDU    : CtrlPDU
+# DHCP       : DHCP options
+# DHCP6      : DHCPv6 Generic Message
+# DHCP6OptAuth : DHCP6 Option - Authentication
+# DHCP6OptBCMCSDomains : DHCP6 Option - BCMCS Domain Name List
+# DHCP6OptBCMCSServers : DHCP6 Option - BCMCS Addresses List
+# DHCP6OptBootFileUrl : DHCP6 Boot File URL Option
+# DHCP6OptClientArchType : DHCP6 Client System Architecture Type Option
+# DHCP6OptClientFQDN : DHCP6 Option - Client FQDN
+# DHCP6OptClientId : DHCP6 Client Identifier Option
+# DHCP6OptClientLinkLayerAddr : DHCP6 Option - Client Link Layer address
+# DHCP6OptClientNetworkInterId : DHCP6 Client Network Interface Identifier Option
+# DHCP6OptDNSDomains : DHCP6 Option - Domain Search List option
+# DHCP6OptDNSServers : DHCP6 Option - DNS Recursive Name Server
+# DHCP6OptERPDomain : DHCP6 Option - ERP Domain Name List
+# DHCP6OptElapsedTime : DHCP6 Elapsed Time Option
+# DHCP6OptGeoConf :
+# DHCP6OptIAAddress : DHCP6 IA Address Option (IA_TA or IA_NA suboption)
+# DHCP6OptIAPrefix : DHCP6 Option - IA_PD Prefix option
+# DHCP6OptIA_NA : DHCP6 Identity Association for Non-temporary Addresses Option
+# DHCP6OptIA_PD : DHCP6 Option - Identity Association for Prefix Delegation
+# DHCP6OptIA_TA : DHCP6 Identity Association for Temporary Addresses Option
+# DHCP6OptIfaceId : DHCP6 Interface-Id Option
+# DHCP6OptInfoRefreshTime : DHCP6 Option - Information Refresh Time
+# DHCP6OptLQClientLink : DHCP6 Client Link Option
+# DHCP6OptNISDomain : DHCP6 Option - NIS Domain Name
+# DHCP6OptNISPDomain : DHCP6 Option - NIS+ Domain Name
+# DHCP6OptNISPServers : DHCP6 Option - NIS+ Servers
+# DHCP6OptNISServers : DHCP6 Option - NIS Servers
+# DHCP6OptNewPOSIXTimeZone : DHCP6 POSIX Timezone Option
+# DHCP6OptNewTZDBTimeZone : DHCP6 TZDB Timezone Option
+# DHCP6OptOptReq : DHCP6 Option Request Option
+# DHCP6OptPanaAuthAgent : DHCP6 PANA Authentication Agent Option
+# DHCP6OptPref : DHCP6 Preference Option
+# DHCP6OptRapidCommit : DHCP6 Rapid Commit Option
+# DHCP6OptReconfAccept : DHCP6 Reconfigure Accept Option
+# DHCP6OptReconfMsg : DHCP6 Reconfigure Message Option
+# DHCP6OptRelayAgentERO : DHCP6 Option - RelayRequest Option
+# DHCP6OptRelayMsg : DHCP6 Relay Message Option
+# DHCP6OptRelaySuppliedOpt : DHCP6 Relay-Supplied Options Option
+# DHCP6OptRemoteID : DHCP6 Option - Relay Agent Remote-ID
+# DHCP6OptSIPDomains : DHCP6 Option - SIP Servers Domain Name List
+# DHCP6OptSIPServers : DHCP6 Option - SIP Servers IPv6 Address List
+# DHCP6OptSNTPServers : DHCP6 option - SNTP Servers
+# DHCP6OptServerId : DHCP6 Server Identifier Option
+# DHCP6OptServerUnicast : DHCP6 Server Unicast Option
+# DHCP6OptStatusCode : DHCP6 Status Code Option
+# DHCP6OptSubscriberID : DHCP6 Option - Subscriber ID
+# DHCP6OptUnknown : Unknown DHCPv6 Option
+# DHCP6OptUserClass : DHCP6 User Class Option
+# DHCP6OptVSS : DHCP6 Option - Virtual Subnet Selection
+# DHCP6OptVendorClass : DHCP6 Vendor Class Option
+# DHCP6OptVendorSpecificInfo : DHCP6 Vendor-specific Information Option
+# DHCP6_Advertise : DHCPv6 Advertise Message
+# DHCP6_Confirm : DHCPv6 Confirm Message
+# DHCP6_Decline : DHCPv6 Decline Message
+# DHCP6_InfoRequest : DHCPv6 Information Request Message
+# DHCP6_Rebind : DHCPv6 Rebind Message
+# DHCP6_Reconf : DHCPv6 Reconfigure Message
+# DHCP6_RelayForward : DHCPv6 Relay Forward Message (Relay Agent/Server Message)
+# DHCP6_RelayReply : DHCPv6 Relay Reply Message (Relay Agent/Server Message)
+# DHCP6_Release : DHCPv6 Release Message
+# DHCP6_Renew : DHCPv6 Renew Message
+# DHCP6_Reply : DHCPv6 Reply Message
+# DHCP6_Request : DHCPv6 Request Message
+# DHCP6_Solicit : DHCPv6 Solicit Message
+# DIR_PPP    : None
+# DNS        : DNS
+# DNSQR      : DNS Question Record
+# DNSRR      : DNS Resource Record
+# DNSRRDLV   : DNS DLV Resource Record
+# DNSRRDNSKEY : DNS DNSKEY Resource Record
+# DNSRRDS    : DNS DS Resource Record
+# DNSRRMX    : DNS MX Resource Record
+# DNSRRNSEC  : DNS NSEC Resource Record
+# DNSRRNSEC3 : DNS NSEC3 Resource Record
+# DNSRRNSEC3PARAM : DNS NSEC3PARAM Resource Record
+# DNSRROPT   : DNS OPT Resource Record
+# DNSRRRSIG  : DNS RRSIG Resource Record
+# DNSRRSOA   : DNS SOA Resource Record
+# DNSRRSRV   : DNS SRV Resource Record
+# DNSRRTSIG  : DNS TSIG Resource Record
+# DUID_EN    : DUID - Assigned by Vendor Based on Enterprise Number
+# DUID_LL    : DUID - Based on Link-layer Address
+# DUID_LLT   : DUID - Link-layer address plus time
+# DUID_UUID  : DUID - Based on UUID
+# Dot11      : 802.11
+# Dot11ATIM  : 802.11 ATIM
+# Dot11Ack   : 802.11 Ack packet
+# Dot11AssoReq : 802.11 Association Request
+# Dot11AssoResp : 802.11 Association Response
+# Dot11Auth  : 802.11 Authentication
+# Dot11Beacon : 802.11 Beacon
+# Dot11CCMP  : 802.11 TKIP packet
+# Dot11Deauth : 802.11 Deauthentication
+# Dot11Disas : 802.11 Disassociation
+# Dot11Elt   : 802.11 Information Element
+# Dot11EltCountry : 802.11 Country
+# Dot11EltCountryConstraintTriplet : 802.11 Country Constraint Triplet
+# Dot11EltMicrosoftWPA : 802.11 Microsoft WPA
+# Dot11EltRSN : 802.11 RSN information
+# Dot11EltRates : 802.11 Rates
+# Dot11EltVendorSpecific : 802.11 Vendor Specific
+# Dot11Encrypted : 802.11 Encrypted (unknown algorithm)
+# Dot11FCS   : 802.11-FCS
+# Dot11ProbeReq : 802.11 Probe Request
+# Dot11ProbeResp : 802.11 Probe Response
+# Dot11QoS   : 802.11 QoS
+# Dot11ReassoReq : 802.11 Reassociation Request
+# Dot11ReassoResp : 802.11 Reassociation Response
+# Dot11TKIP  : 802.11 TKIP packet
+# Dot11WEP   : 802.11 WEP packet
+# Dot15d4    : 802.15.4
+# Dot15d4Ack : 802.15.4 Ack
+# Dot15d4AuxSecurityHeader : 802.15.4 Auxiliary Security Header
+# Dot15d4Beacon : 802.15.4 Beacon
+# Dot15d4Cmd : 802.15.4 Command
+# Dot15d4CmdAssocReq : 802.15.4 Association Request Payload
+# Dot15d4CmdAssocResp : 802.15.4 Association Response Payload
+# Dot15d4CmdCoordRealign : 802.15.4 Coordinator Realign Command
+# Dot15d4CmdDisassociation : 802.15.4 Disassociation Notification Payload
+# Dot15d4CmdGTSReq : 802.15.4 GTS request command
+# Dot15d4Data : 802.15.4 Data
+# Dot15d4FCS : 802.15.4 - FCS
+# Dot1AD     : 802_1AD
+# Dot1Q      : 802.1Q
+# Dot3       : 802.3
+# EAP        : EAP
+# EAPOL      : EAPOL
+# EAP_FAST   : EAP-FAST
+# EAP_MD5    : EAP-MD5
+# EAP_PEAP   : PEAP
+# EAP_TLS    : EAP-TLS
+# EAP_TTLS   : EAP-TTLS
+# ECCurve    : None
+# ECDSAPrivateKey : None
+# ECDSAPrivateKey_OpenSSL : ECDSA Params + Private Key
+# ECDSAPublicKey : None
+# ECDSASignature : None
+# ECFieldID  : None
+# ECParameters : None
+# ECSpecifiedDomain : None
+# EDNS0TLV   : DNS EDNS0 TLV
+# EIR_CompleteList128BitServiceUUIDs : Complete list of 128-bit service UUIDs
+# EIR_CompleteList16BitServiceUUIDs : Complete list of 16-bit service UUIDs
+# EIR_CompleteLocalName : Complete Local Name
+# EIR_Device_ID : Device ID
+# EIR_Element : EIR Element
+# EIR_Flags  : Flags
+# EIR_Hdr    : EIR Header
+# EIR_IncompleteList128BitServiceUUIDs : Incomplete list of 128-bit service UUIDs
+# EIR_IncompleteList16BitServiceUUIDs : Incomplete list of 16-bit service UUIDs
+# EIR_Manufacturer_Specific_Data : EIR Manufacturer Specific Data
+# EIR_Raw    : EIR Raw
+# EIR_ServiceData16BitUUID : EIR Service Data - 16-bit UUID
+# EIR_ShortenedLocalName : Shortened Local Name
+# EIR_TX_Power_Level : TX Power Level
+# ERSPAN     : ERSPAN
+# ESP        : ESP
+# Ether      : Ethernet
+# GPRS       : GPRSdummy
+# GRE        : GRE
+# GRE_PPTP   : GRE PPTP
+# GRErouting : GRE routing information
+# HAO        : Home Address Option
+# HBHOptUnknown : Scapy6 Unknown Option
+# HCI_ACL_Hdr : HCI ACL header
+# HCI_Cmd_Complete_LE_Read_White_List_Size : LE Read White List Size
+# HCI_Cmd_Complete_Read_BD_Addr : Read BD Addr
+# HCI_Cmd_Connect_Accept_Timeout : Connection Attempt Timeout
+# HCI_Cmd_Disconnect : Disconnect
+# HCI_Cmd_LE_Add_Device_To_White_List : LE Add Device to White List
+# HCI_Cmd_LE_Clear_White_List : LE Clear White List
+# HCI_Cmd_LE_Connection_Update : LE Connection Update
+# HCI_Cmd_LE_Create_Connection : LE Create Connection
+# HCI_Cmd_LE_Create_Connection_Cancel : LE Create Connection Cancel
+# HCI_Cmd_LE_Host_Supported : LE Host Supported
+# HCI_Cmd_LE_Long_Term_Key_Request_Negative_Reply : LE Long Term Key Request Negative Reply
+# HCI_Cmd_LE_Long_Term_Key_Request_Reply : LE Long Term Key Request Reply
+# HCI_Cmd_LE_Read_Buffer_Size : LE Read Buffer Size
+# HCI_Cmd_LE_Read_Remote_Used_Features : LE Read Remote Used Features
+# HCI_Cmd_LE_Read_White_List_Size : LE Read White List Size
+# HCI_Cmd_LE_Remove_Device_From_White_List : LE Remove Device from White List
+# HCI_Cmd_LE_Set_Advertise_Enable : LE Set Advertise Enable
+# HCI_Cmd_LE_Set_Advertising_Data : LE Set Advertising Data
+# HCI_Cmd_LE_Set_Advertising_Parameters : LE Set Advertising Parameters
+# HCI_Cmd_LE_Set_Random_Address : LE Set Random Address
+# HCI_Cmd_LE_Set_Scan_Enable : LE Set Scan Enable
+# HCI_Cmd_LE_Set_Scan_Parameters : LE Set Scan Parameters
+# HCI_Cmd_LE_Set_Scan_Response_Data : LE Set Scan Response Data
+# HCI_Cmd_LE_Start_Encryption_Request : LE Start Encryption
+# HCI_Cmd_Read_BD_Addr : Read BD Addr
+# HCI_Cmd_Reset : Reset
+# HCI_Cmd_Set_Event_Filter : Set Event Filter
+# HCI_Cmd_Set_Event_Mask : Set Event Mask
+# HCI_Cmd_Write_Extended_Inquiry_Response : Write Extended Inquiry Response
+# HCI_Cmd_Write_Local_Name : None
+# HCI_Command_Hdr : HCI Command header
+# HCI_Event_Command_Complete : Command Complete
+# HCI_Event_Command_Status : Command Status
+# HCI_Event_Disconnection_Complete : Disconnection Complete
+# HCI_Event_Encryption_Change : Encryption Change
+# HCI_Event_Hdr : HCI Event header
+# HCI_Event_LE_Meta : LE Meta
+# HCI_Event_Number_Of_Completed_Packets : Number Of Completed Packets
+# HCI_Hdr    : HCI header
+# HCI_LE_Meta_Advertising_Report : Advertising Report
+# HCI_LE_Meta_Advertising_Reports : Advertising Reports
+# HCI_LE_Meta_Connection_Complete : Connection Complete
+# HCI_LE_Meta_Connection_Update_Complete : Connection Update Complete
+# HCI_LE_Meta_Long_Term_Key_Request : Long Term Key Request
+# HCI_PHDR_Hdr : HCI PHDR transport layer
+# HDLC       : None
+# HSRP       : HSRP
+# HSRPmd5    : HSRP MD5 Authentication
+# ICMP       : ICMP
+# ICMPerror  : ICMP in ICMP
+# ICMPv6DestUnreach : ICMPv6 Destination Unreachable
+# ICMPv6EchoReply : ICMPv6 Echo Reply
+# ICMPv6EchoRequest : ICMPv6 Echo Request
+# ICMPv6HAADReply : ICMPv6 Home Agent Address Discovery Reply
+# ICMPv6HAADRequest : ICMPv6 Home Agent Address Discovery Request
+# ICMPv6MLDMultAddrRec : ICMPv6 MLDv2 - Multicast Address Record
+# ICMPv6MLDone : MLD - Multicast Listener Done
+# ICMPv6MLQuery : MLD - Multicast Listener Query
+# ICMPv6MLQuery2 : MLDv2 - Multicast Listener Query
+# ICMPv6MLReport : MLD - Multicast Listener Report
+# ICMPv6MLReport2 : MLDv2 - Multicast Listener Report
+# ICMPv6MPAdv : ICMPv6 Mobile Prefix Advertisement
+# ICMPv6MPSol : ICMPv6 Mobile Prefix Solicitation
+# ICMPv6MRD_Advertisement : ICMPv6 Multicast Router Discovery Advertisement
+# ICMPv6MRD_Solicitation : ICMPv6 Multicast Router Discovery Solicitation
+# ICMPv6MRD_Termination : ICMPv6 Multicast Router Discovery Termination
+# ICMPv6NDOptAdvInterval : ICMPv6 Neighbor Discovery - Interval Advertisement
+# ICMPv6NDOptDNSSL : ICMPv6 Neighbor Discovery Option - DNS Search List Option
+# ICMPv6NDOptDstLLAddr : ICMPv6 Neighbor Discovery Option - Destination Link-Layer Address
+# ICMPv6NDOptEFA : ICMPv6 Neighbor Discovery Option - Expanded Flags Option
+# ICMPv6NDOptHAInfo : ICMPv6 Neighbor Discovery - Home Agent Information
+# ICMPv6NDOptIPAddr : ICMPv6 Neighbor Discovery - IP Address Option (FH for MIPv6)
+# ICMPv6NDOptLLA : ICMPv6 Neighbor Discovery - Link-Layer Address (LLA) Option (FH for MIPv6)
+# ICMPv6NDOptMAP : ICMPv6 Neighbor Discovery - MAP Option
+# ICMPv6NDOptMTU : ICMPv6 Neighbor Discovery Option - MTU
+# ICMPv6NDOptNewRtrPrefix : ICMPv6 Neighbor Discovery - New Router Prefix Information Option (FH for MIPv6)
+# ICMPv6NDOptPrefixInfo : ICMPv6 Neighbor Discovery Option - Prefix Information
+# ICMPv6NDOptRDNSS : ICMPv6 Neighbor Discovery Option - Recursive DNS Server Option
+# ICMPv6NDOptRedirectedHdr : ICMPv6 Neighbor Discovery Option - Redirected Header
+# ICMPv6NDOptRouteInfo : ICMPv6 Neighbor Discovery Option - Route Information Option
+# ICMPv6NDOptShortcutLimit : ICMPv6 Neighbor Discovery Option - NBMA Shortcut Limit
+# ICMPv6NDOptSrcAddrList : ICMPv6 Inverse Neighbor Discovery Option - Source Address List
+# ICMPv6NDOptSrcLLAddr : ICMPv6 Neighbor Discovery Option - Source Link-Layer Address
+# ICMPv6NDOptTgtAddrList : ICMPv6 Inverse Neighbor Discovery Option - Target Address List
+# ICMPv6NDOptUnknown : ICMPv6 Neighbor Discovery Option - Scapy Unimplemented
+# ICMPv6ND_INDAdv : ICMPv6 Inverse Neighbor Discovery Advertisement
+# ICMPv6ND_INDSol : ICMPv6 Inverse Neighbor Discovery Solicitation
+# ICMPv6ND_NA : ICMPv6 Neighbor Discovery - Neighbor Advertisement
+# ICMPv6ND_NS : ICMPv6 Neighbor Discovery - Neighbor Solicitation
+# ICMPv6ND_RA : ICMPv6 Neighbor Discovery - Router Advertisement
+# ICMPv6ND_RS : ICMPv6 Neighbor Discovery - Router Solicitation
+# ICMPv6ND_Redirect : ICMPv6 Neighbor Discovery - Redirect
+# ICMPv6NIQueryIPv4 : ICMPv6 Node Information Query - IPv4 Address Query
+# ICMPv6NIQueryIPv6 : ICMPv6 Node Information Query - IPv6 Address Query
+# ICMPv6NIQueryNOOP : ICMPv6 Node Information Query - NOOP Query
+# ICMPv6NIQueryName : ICMPv6 Node Information Query - IPv6 Name Query
+# ICMPv6NIReplyIPv4 : ICMPv6 Node Information Reply - IPv4 addresses
+# ICMPv6NIReplyIPv6 : ICMPv6 Node Information Reply - IPv6 addresses
+# ICMPv6NIReplyNOOP : ICMPv6 Node Information Reply - NOOP Reply
+# ICMPv6NIReplyName : ICMPv6 Node Information Reply - Node Names
+# ICMPv6NIReplyRefuse : ICMPv6 Node Information Reply - Responder refuses to supply answer
+# ICMPv6NIReplyUnknown : ICMPv6 Node Information Reply - Qtype unknown to the responder
+# ICMPv6PacketTooBig : ICMPv6 Packet Too Big
+# ICMPv6ParamProblem : ICMPv6 Parameter Problem
+# ICMPv6TimeExceeded : ICMPv6 Time Exceeded
+# ICMPv6Unknown : Scapy6 ICMPv6 fallback class
+# IP         : IP
+# IPOption   : IP Option
+# IPOption_Address_Extension : IP Option Address Extension
+# IPOption_EOL : IP Option End of Options List
+# IPOption_LSRR : IP Option Loose Source and Record Route
+# IPOption_MTU_Probe : IP Option MTU Probe
+# IPOption_MTU_Reply : IP Option MTU Reply
+# IPOption_NOP : IP Option No Operation
+# IPOption_RR : IP Option Record Route
+# IPOption_Router_Alert : IP Option Router Alert
+# IPOption_SDBM : IP Option Selective Directed Broadcast Mode
+# IPOption_SSRR : IP Option Strict Source and Record Route
+# IPOption_Security : IP Option Security
+# IPOption_Stream_Id : IP Option Stream ID
+# IPOption_Traceroute : IP Option Traceroute
+# IPerror    : IP in ICMP
+# IPerror6   : IPv6 in ICMPv6
+# IPv6       : IPv6
+# IPv6ExtHdrDestOpt : IPv6 Extension Header - Destination Options Header
+# IPv6ExtHdrFragment : IPv6 Extension Header - Fragmentation header
+# IPv6ExtHdrHopByHop : IPv6 Extension Header - Hop-by-Hop Options Header
+# IPv6ExtHdrRouting : IPv6 Option Header Routing
+# IPv6ExtHdrSegmentRouting : IPv6 Option Header Segment Routing
+# IPv6ExtHdrSegmentRoutingTLV : IPv6 Option Header Segment Routing - Generic TLV
+# IPv6ExtHdrSegmentRoutingTLVEgressNode : IPv6 Option Header Segment Routing - Egress Node TLV
+# IPv6ExtHdrSegmentRoutingTLVIngressNode : IPv6 Option Header Segment Routing - Ingress Node TLV
+# IPv6ExtHdrSegmentRoutingTLVPadding : IPv6 Option Header Segment Routing - Padding TLV
+# ISAKMP     : ISAKMP
+# ISAKMP_class : None
+# ISAKMP_payload : ISAKMP payload
+# ISAKMP_payload_Hash : ISAKMP Hash
+# ISAKMP_payload_ID : ISAKMP Identification
+# ISAKMP_payload_KE : ISAKMP Key Exchange
+# ISAKMP_payload_Nonce : ISAKMP Nonce
+# ISAKMP_payload_Proposal : IKE proposal
+# ISAKMP_payload_SA : ISAKMP SA
+# ISAKMP_payload_Transform : IKE Transform
+# ISAKMP_payload_VendorID : ISAKMP Vendor ID
+# InheritOriginDNSStrPacket : None
+# IrLAPCommand : IrDA Link Access Protocol Command
+# IrLAPHead  : IrDA Link Access Protocol Header
+# IrLMP      : IrDA Link Management Protocol
+# Jumbo      : Jumbo Payload
+# L2CAP_CmdHdr : L2CAP command header
+# L2CAP_CmdRej : L2CAP Command Rej
+# L2CAP_ConfReq : L2CAP Conf Req
+# L2CAP_ConfResp : L2CAP Conf Resp
+# L2CAP_ConnReq : L2CAP Conn Req
+# L2CAP_ConnResp : L2CAP Conn Resp
+# L2CAP_Connection_Parameter_Update_Request : L2CAP Connection Parameter Update Request
+# L2CAP_Connection_Parameter_Update_Response : L2CAP Connection Parameter Update Response
+# L2CAP_DisconnReq : L2CAP Disconn Req
+# L2CAP_DisconnResp : L2CAP Disconn Resp
+# L2CAP_Hdr  : L2CAP header
+# L2CAP_InfoReq : L2CAP Info Req
+# L2CAP_InfoResp : L2CAP Info Resp
+# L2TP       : L2TP
+# LEAP       : Cisco LEAP
+# LLC        : LLC
+# LLMNRQuery : Link Local Multicast Node Resolution - Query
+# LLMNRResponse : Link Local Multicast Node Resolution - Response
+# LLTD       : LLTD
+# LLTDAttribute : LLTD Attribute
+# LLTDAttribute80211MaxRate : LLTD Attribute - 802.11 Max Rate
+# LLTDAttribute80211PhysicalMedium : LLTD Attribute - 802.11 Physical Medium
+# LLTDAttributeCharacteristics : LLTD Attribute - Characteristics
+# LLTDAttributeDeviceUUID : LLTD Attribute - Device UUID
+# LLTDAttributeEOP : LLTD Attribute - End Of Property
+# LLTDAttributeHostID : LLTD Attribute - Host ID
+# LLTDAttributeIPv4Address : LLTD Attribute - IPv4 Address
+# LLTDAttributeIPv6Address : LLTD Attribute - IPv6 Address
+# LLTDAttributeLargeTLV : LLTD Attribute - Large TLV
+# LLTDAttributeLinkSpeed : LLTD Attribute - Link Speed
+# LLTDAttributeMachineName : LLTD Attribute - Machine Name
+# LLTDAttributePerformanceCounterFrequency : LLTD Attribute - Performance Counter Frequency
+# LLTDAttributePhysicalMedium : LLTD Attribute - Physical Medium
+# LLTDAttributeQOSCharacteristics : LLTD Attribute - QoS Characteristics
+# LLTDAttributeSeesList : LLTD Attribute - Sees List Working Set
+# LLTDDiscover : LLTD - Discover
+# LLTDEmit   : LLTD - Emit
+# LLTDEmiteeDesc : LLTD - Emitee Desc
+# LLTDHello  : LLTD - Hello
+# LLTDQueryLargeTlv : LLTD - Query Large Tlv
+# LLTDQueryLargeTlvResp : LLTD - Query Large Tlv Response
+# LLTDQueryResp : LLTD - Query Response
+# LLTDRecveeDesc : LLTD - Recvee Desc
+# LinkStatusEntry : ZigBee Link Status Entry
+# LoWPANFragmentationFirst : 6LoWPAN First Fragmentation Packet
+# LoWPANFragmentationSubsequent : 6LoWPAN Subsequent Fragmentation Packet
+# LoWPANMesh : 6LoWPAN Mesh Packet
+# LoWPANUncompressedIPv6 : 6LoWPAN Uncompressed IPv6
+# LoWPAN_HC1 : LoWPAN_HC1 Compressed IPv6 (Not supported)
+# LoWPAN_IPHC : LoWPAN IP Header Compression Packet
+# Loopback   : Loopback
+# MACsecSCI  : SCI
+# MGCP       : MGCP
+# MIP6MH_BA  : IPv6 Mobility Header - Binding ACK
+# MIP6MH_BE  : IPv6 Mobility Header - Binding Error
+# MIP6MH_BRR : IPv6 Mobility Header - Binding Refresh Request
+# MIP6MH_BU  : IPv6 Mobility Header - Binding Update
+# MIP6MH_CoT : IPv6 Mobility Header - Care-of Test
+# MIP6MH_CoTI : IPv6 Mobility Header - Care-of Test Init
+# MIP6MH_Generic : IPv6 Mobility Header - Generic Message
+# MIP6MH_HoT : IPv6 Mobility Header - Home Test
+# MIP6MH_HoTI : IPv6 Mobility Header - Home Test Init
+# MIP6OptAltCoA : MIPv6 Option - Alternate Care-of Address
+# MIP6OptBRAdvice : Mobile IPv6 Option - Binding Refresh Advice
+# MIP6OptBindingAuthData : MIPv6 Option - Binding Authorization Data
+# MIP6OptCGAParams : MIPv6 option - CGA Parameters
+# MIP6OptCGAParamsReq : MIPv6 option - CGA Parameters Request
+# MIP6OptCareOfTest : MIPv6 option - Care-of Test
+# MIP6OptCareOfTestInit : MIPv6 option - Care-of Test Init
+# MIP6OptHomeKeygenToken : MIPv6 option - Home Keygen Token
+# MIP6OptLLAddr : MIPv6 Option - Link-Layer Address (MH-LLA)
+# MIP6OptMNID : MIPv6 Option - Mobile Node Identifier
+# MIP6OptMobNetPrefix : NEMO Option - Mobile Network Prefix
+# MIP6OptMsgAuth : MIPv6 Option - Mobility Message Authentication
+# MIP6OptNonceIndices : MIPv6 Option - Nonce Indices
+# MIP6OptReplayProtection : MIPv6 option - Replay Protection
+# MIP6OptSignature : MIPv6 option - Signature
+# MIP6OptUnknown : Scapy6 - Unknown Mobility Option
+# MKABasicParamSet : Basic Parameter Set
+# MKADistributedCAKParamSet : Distributed CAK parameter set
+# MKADistributedSAKParamSet : Distributed SAK parameter set
+# MKAICVSet  : ICV
+# MKALivePeerListParamSet : Live Peer List Parameter Set
+# MKAPDU     : MKPDU
+# MKAParamSet : None
+# MKAPeerListTuple : Peer List Tuple
+# MKAPotentialPeerListParamSet : Potential Peer List Parameter Set
+# MKASAKUseParamSet : SAK Use Parameter Set
+# MobileIP   : Mobile IP (RFC3344)
+# MobileIPRRP : Mobile IP Registration Reply (RFC3344)
+# MobileIPRRQ : Mobile IP Registration Request (RFC3344)
+# MobileIPTunnelData : Mobile IP Tunnel Data Message (RFC3519)
+# NBNSNodeStatusResponse : NBNS Node Status Response
+# NBNSNodeStatusResponseEnd : NBNS Node Status Response
+# NBNSNodeStatusResponseService : NBNS Node Status Response Service
+# NBNSQueryRequest : NBNS query request
+# NBNSQueryResponse : NBNS query response
+# NBNSQueryResponseNegative : NBNS query response (negative)
+# NBNSRequest : NBNS request
+# NBNSWackResponse : NBNS Wait for Acknowledgement Response
+# NBTDatagram : NBT Datagram Packet
+# NBTSession : NBT Session Packet
+# NTP        : None
+# NTPAuthenticator : Authenticator
+# NTPClockStatusPacket : clock status
+# NTPConfPeer : conf_peer
+# NTPConfRestrict : conf_restrict
+# NTPConfTrap : conf_trap
+# NTPConfUnpeer : conf_unpeer
+# NTPControl : Control message
+# NTPErrorStatusPacket : error status
+# NTPExtension : extension
+# NTPExtensions : NTPv4 extensions
+# NTPHeader  : NTPHeader
+# NTPInfoAuth : info_auth
+# NTPInfoControl : info_control
+# NTPInfoIOStats : info_io_stats
+# NTPInfoIfStatsIPv4 : info_if_stats
+# NTPInfoIfStatsIPv6 : info_if_stats
+# NTPInfoKernel : info_kernel
+# NTPInfoLoop : info_loop
+# NTPInfoMemStats : info_mem_stats
+# NTPInfoMonitor1 : InfoMonitor1
+# NTPInfoPeer : info_peer
+# NTPInfoPeerList : info_peer_list
+# NTPInfoPeerStats : info_peer_stats
+# NTPInfoPeerSummary : info_peer_summary
+# NTPInfoSys : info_sys
+# NTPInfoSysStats : info_sys_stats
+# NTPInfoTimerStats : info_timer_stats
+# NTPPeerStatusDataPacket : data / peer status
+# NTPPeerStatusPacket : peer status
+# NTPPrivate : Private (mode 7)
+# NTPPrivatePktTail : req_pkt_tail
+# NTPPrivateReqPacket : request data
+# NTPStatusPacket : status
+# NTPSystemStatusPacket : system status
+# NetBIOS_DS : NetBIOS datagram service
+# NetflowDataflowsetV9 : Netflow DataFlowSet V9/10
+# NetflowFlowsetV9 : Netflow FlowSet V9/10
+# NetflowHeader : Netflow Header
+# NetflowHeaderV1 : Netflow Header v1
+# NetflowHeaderV10 : IPFix (Netflow V10) Header
+# NetflowHeaderV5 : Netflow Header v5
+# NetflowHeaderV9 : Netflow Header V9
+# NetflowOptionsFlowset10 : Netflow V10 (IPFix) Options Template FlowSet
+# NetflowOptionsFlowsetOptionV9 : Netflow Options Template FlowSet V9/10 - Option
+# NetflowOptionsFlowsetScopeV9 : Netflow Options Template FlowSet V9/10 - Scope
+# NetflowOptionsFlowsetV9 : Netflow Options Template FlowSet V9
+# NetflowOptionsRecordOptionV9 : Netflow Options Template Record V9/10 - Option
+# NetflowOptionsRecordScopeV9 : Netflow Options Template Record V9/10 - Scope
+# NetflowRecordV1 : Netflow Record v1
+# NetflowRecordV5 : Netflow Record v5
+# NetflowRecordV9 : Netflow DataFlowset Record V9/10
+# NetflowTemplateFieldV9 : Netflow Flowset Template Field V9/10
+# NetflowTemplateV9 : Netflow Flowset Template V9/10
+# NoPayload  : None
+# OCSP_ByKey : None
+# OCSP_ByName : None
+# OCSP_CertID : None
+# OCSP_CertStatus : None
+# OCSP_GoodInfo : None
+# OCSP_ResponderID : None
+# OCSP_Response : None
+# OCSP_ResponseBytes : None
+# OCSP_ResponseData : None
+# OCSP_RevokedInfo : None
+# OCSP_SingleResponse : None
+# OCSP_UnknownInfo : None
+# PMKIDListPacket : PMKIDs
+# PPI        : Per-Packet Information header (PPI)
+# PPI_Element : PPI Element
+# PPI_Hdr    : PPI Header
+# PPP        : PPP Link Layer
+# PPP_       : PPP Link Layer
+# PPP_CHAP   : PPP Challenge Handshake Authentication Protocol
+# PPP_CHAP_ChallengeResponse : PPP Challenge Handshake Authentication Protocol
+# PPP_ECP    : None
+# PPP_ECP_Option : PPP ECP Option
+# PPP_ECP_Option_OUI : PPP ECP Option
+# PPP_IPCP   : None
+# PPP_IPCP_Option : PPP IPCP Option
+# PPP_IPCP_Option_DNS1 : PPP IPCP Option: DNS1 Address
+# PPP_IPCP_Option_DNS2 : PPP IPCP Option: DNS2 Address
+# PPP_IPCP_Option_IPAddress : PPP IPCP Option: IP Address
+# PPP_IPCP_Option_NBNS1 : PPP IPCP Option: NBNS1 Address
+# PPP_IPCP_Option_NBNS2 : PPP IPCP Option: NBNS2 Address
+# PPP_LCP    : PPP Link Control Protocol
+# PPP_LCP_ACCM_Option : PPP LCP Option
+# PPP_LCP_Auth_Protocol_Option : PPP LCP Option
+# PPP_LCP_Callback_Option : PPP LCP Option
+# PPP_LCP_Code_Reject : PPP Link Control Protocol
+# PPP_LCP_Configure : PPP Link Control Protocol
+# PPP_LCP_Discard_Request : PPP Link Control Protocol
+# PPP_LCP_Echo : PPP Link Control Protocol
+# PPP_LCP_MRU_Option : PPP LCP Option
+# PPP_LCP_Magic_Number_Option : PPP LCP Option
+# PPP_LCP_Option : PPP LCP Option
+# PPP_LCP_Protocol_Reject : PPP Link Control Protocol
+# PPP_LCP_Quality_Protocol_Option : PPP LCP Option
+# PPP_LCP_Terminate : PPP Link Control Protocol
+# PPP_PAP    : PPP Password Authentication Protocol
+# PPP_PAP_Request : PPP Password Authentication Protocol
+# PPP_PAP_Response : PPP Password Authentication Protocol
+# PPPoE      : PPP over Ethernet
+# PPPoED     : PPP over Ethernet Discovery
+# PPPoED_Tags : PPPoE Tag List
+# PPPoETag   : PPPoE Tag
+# PPTP       : PPTP
+# PPTPCallClearRequest : PPTP Call Clear Request
+# PPTPCallDisconnectNotify : PPTP Call Disconnect Notify
+# PPTPEchoReply : PPTP Echo Reply
+# PPTPEchoRequest : PPTP Echo Request
+# PPTPIncomingCallConnected : PPTP Incoming Call Connected
+# PPTPIncomingCallReply : PPTP Incoming Call Reply
+# PPTPIncomingCallRequest : PPTP Incoming Call Request
+# PPTPOutgoingCallReply : PPTP Outgoing Call Reply
+# PPTPOutgoingCallRequest : PPTP Outgoing Call Request
+# PPTPSetLinkInfo : PPTP Set Link Info
+# PPTPStartControlConnectionReply : PPTP Start Control Connection Reply
+# PPTPStartControlConnectionRequest : PPTP Start Control Connection Request
+# PPTPStopControlConnectionReply : PPTP Stop Control Connection Reply
+# PPTPStopControlConnectionRequest : PPTP Stop Control Connection Request
+# PPTPWANErrorNotify : PPTP WAN Error Notify
+# Packet     : None
+# Pad1       : Pad1
+# PadN       : PadN
+# Padding    : Padding
+# PrismHeader : Prism header
+# PseudoIPv6 : Pseudo IPv6 Header
+# RIP        : RIP header
+# RIPAuth    : RIP authentication
+# RIPEntry   : RIP entry
+# RSAOtherPrimeInfo : None
+# RSAPrivateKey : None
+# RSAPrivateKey_OpenSSL : None
+# RSAPublicKey : None
+# RSNCipherSuite : Cipher suite
+# RTP        : RTP
+# RTPExtension : RTP extension
+# RadioTap   : RadioTap dummy
+# RadioTapExtendedPresenceMask : RadioTap Extended presence mask
+# Radius     : RADIUS
+# RadiusAttr_ARAP_Security : Radius Attribute
+# RadiusAttr_Acct_Delay_Time : Radius Attribute
+# RadiusAttr_Acct_Input_Gigawords : Radius Attribute
+# RadiusAttr_Acct_Input_Octets : Radius Attribute
+# RadiusAttr_Acct_Input_Packets : Radius Attribute
+# RadiusAttr_Acct_Interim_Interval : Radius Attribute
+# RadiusAttr_Acct_Link_Count : Radius Attribute
+# RadiusAttr_Acct_Output_Gigawords : Radius Attribute
+# RadiusAttr_Acct_Output_Octets : Radius Attribute
+# RadiusAttr_Acct_Output_Packets : Radius Attribute
+# RadiusAttr_Acct_Session_Time : Radius Attribute
+# RadiusAttr_Acct_Tunnel_Packets_Lost : Radius Attribute
+# RadiusAttr_EAP_Message : EAP-Message
+# RadiusAttr_Egress_VLANID : Radius Attribute
+# RadiusAttr_Framed_AppleTalk_Link : Radius Attribute
+# RadiusAttr_Framed_AppleTalk_Network : Radius Attribute
+# RadiusAttr_Framed_IPX_Network : Radius Attribute
+# RadiusAttr_Framed_IP_Address : Radius Attribute
+# RadiusAttr_Framed_IP_Netmask : Radius Attribute
+# RadiusAttr_Framed_MTU : Radius Attribute
+# RadiusAttr_Framed_Protocol : Radius Attribute
+# RadiusAttr_Idle_Timeout : Radius Attribute
+# RadiusAttr_Login_IP_Host : Radius Attribute
+# RadiusAttr_Login_TCP_Port : Radius Attribute
+# RadiusAttr_Management_Privilege_Level : Radius Attribute
+# RadiusAttr_Message_Authenticator : Radius Attribute
+# RadiusAttr_Mobility_Domain_Id : Radius Attribute
+# RadiusAttr_NAS_IP_Address : Radius Attribute
+# RadiusAttr_NAS_Port : Radius Attribute
+# RadiusAttr_NAS_Port_Type : Radius Attribute
+# RadiusAttr_PMIP6_Home_DHCP4_Server_Address : Radius Attribute
+# RadiusAttr_PMIP6_Home_IPv4_Gateway : Radius Attribute
+# RadiusAttr_PMIP6_Home_LMA_IPv4_Address : Radius Attribute
+# RadiusAttr_PMIP6_Visited_DHCP4_Server_Address : Radius Attribute
+# RadiusAttr_PMIP6_Visited_IPv4_Gateway : Radius Attribute
+# RadiusAttr_PMIP6_Visited_LMA_IPv4_Address : Radius Attribute
+# RadiusAttr_Password_Retry : Radius Attribute
+# RadiusAttr_Port_Limit : Radius Attribute
+# RadiusAttr_Preauth_Timeout : Radius Attribute
+# RadiusAttr_Service_Type : Radius Attribute
+# RadiusAttr_Session_Timeout : Radius Attribute
+# RadiusAttr_State : Radius Attribute
+# RadiusAttr_Tunnel_Preference : Radius Attribute
+# RadiusAttr_Vendor_Specific : Vendor-Specific
+# RadiusAttr_WLAN_AKM_Suite : Radius Attribute
+# RadiusAttr_WLAN_Group_Cipher : Radius Attribute
+# RadiusAttr_WLAN_Group_Mgmt_Cipher : Radius Attribute
+# RadiusAttr_WLAN_Pairwise_Cipher : Radius Attribute
+# RadiusAttr_WLAN_RF_Band : Radius Attribute
+# RadiusAttr_WLAN_Reason_Code : Radius Attribute
+# RadiusAttr_WLAN_Venue_Info : Radius Attribute
+# RadiusAttribute : Radius Attribute
+# Raw        : Raw
+# RouterAlert : Router Alert
+# SCTP       : None
+# SCTPChunkAbort : None
+# SCTPChunkAddressConf : None
+# SCTPChunkAddressConfAck : None
+# SCTPChunkAuthentication : None
+# SCTPChunkCookieAck : None
+# SCTPChunkCookieEcho : None
+# SCTPChunkData : None
+# SCTPChunkError : None
+# SCTPChunkHeartbeatAck : None
+# SCTPChunkHeartbeatReq : None
+# SCTPChunkInit : None
+# SCTPChunkInitAck : None
+# SCTPChunkParamAdaptationLayer : None
+# SCTPChunkParamAddIPAddr : None
+# SCTPChunkParamChunkList : None
+# SCTPChunkParamCookiePreservative : None
+# SCTPChunkParamDelIPAddr : None
+# SCTPChunkParamECNCapable : None
+# SCTPChunkParamErrorIndication : None
+# SCTPChunkParamFwdTSN : None
+# SCTPChunkParamHearbeatInfo : None
+# SCTPChunkParamHostname : None
+# SCTPChunkParamIPv4Addr : None
+# SCTPChunkParamIPv6Addr : None
+# SCTPChunkParamRandom : None
+# SCTPChunkParamRequestedHMACFunctions : None
+# SCTPChunkParamSetPrimaryAddr : None
+# SCTPChunkParamStateCookie : None
+# SCTPChunkParamSuccessIndication : None
+# SCTPChunkParamSupportedAddrTypes : None
+# SCTPChunkParamSupportedExtensions : None
+# SCTPChunkParamUnrocognizedParam : None
+# SCTPChunkSACK : None
+# SCTPChunkShutdown : None
+# SCTPChunkShutdownAck : None
+# SCTPChunkShutdownComplete : None
+# SMBMailSlot : None
+# SMBNegociate_Protocol_Request_Header : SMBNegociate Protocol Request Header
+# SMBNegociate_Protocol_Request_Tail : SMB Negotiate Protocol Request Tail
+# SMBNegociate_Protocol_Response_Advanced_Security : SMBNegociate Protocol Response Advanced Security
+# SMBNegociate_Protocol_Response_No_Security : SMBNegociate Protocol Response No Security
+# SMBNegociate_Protocol_Response_No_Security_No_Key : None
+# SMBNetlogon_Protocol_Response_Header : SMBNetlogon Protocol Response Header
+# SMBNetlogon_Protocol_Response_Tail_LM20 : SMB Netlogon Protocol Response Tail LM20
+# SMBNetlogon_Protocol_Response_Tail_SAM : SMB Netlogon Protocol Response Tail SAM
+# SMBSession_Setup_AndX_Request : Session Setup AndX Request
+# SMBSession_Setup_AndX_Response : Session Setup AndX Response
+# SM_Confirm : Pairing Confirm
+# SM_Encryption_Information : Encryption Information
+# SM_Failed  : Pairing Failed
+# SM_Hdr     : SM header
+# SM_Identity_Address_Information : Identity Address Information
+# SM_Identity_Information : Identity Information
+# SM_Master_Identification : Master Identification
+# SM_Pairing_Request : Pairing Request
+# SM_Pairing_Response : Pairing Response
+# SM_Random  : Pairing Random
+# SM_Signing_Information : Signing Information
+# SNAP       : SNAP
+# SNMP       : None
+# SNMPbulk   : None
+# SNMPget    : None
+# SNMPinform : None
+# SNMPnext   : None
+# SNMPresponse : None
+# SNMPset    : None
+# SNMPtrapv1 : None
+# SNMPtrapv2 : None
+# SNMPvarbind : None
+# STP        : Spanning Tree Protocol
+# SixLoWPAN  : SixLoWPAN(Packet)
+# Skinny     : Skinny
+# TCP        : TCP
+# TCPerror   : TCP in ICMP
+# TFTP       : TFTP opcode
+# TFTP_ACK   : TFTP Ack
+# TFTP_DATA  : TFTP Data
+# TFTP_ERROR : TFTP Error
+# TFTP_OACK  : TFTP Option Ack
+# TFTP_Option : None
+# TFTP_Options : None
+# TFTP_RRQ   : TFTP Read Request
+# TFTP_WRQ   : TFTP Write Request
+# UDP        : UDP
+# UDPerror   : UDP in ICMP
+# USER_CLASS_DATA : user class data
+# VENDOR_CLASS_DATA : vendor class data
+# VENDOR_SPECIFIC_OPTION : vendor specific option data
+# VRRP       : None
+# VRRPv3     : None
+# VXLAN      : VXLAN
+# X509_AccessDescription : None
+# X509_AlgorithmIdentifier : None
+# X509_Attribute : None
+# X509_AttributeTypeAndValue : None
+# X509_AttributeValue : None
+# X509_CRL   : None
+# X509_Cert  : None
+# X509_DNSName : None
+# X509_DirectoryName : None
+# X509_EDIPartyName : None
+# X509_ExtAuthInfoAccess : None
+# X509_ExtAuthorityKeyIdentifier : None
+# X509_ExtBasicConstraints : None
+# X509_ExtCRLDistributionPoints : None
+# X509_ExtCRLNumber : None
+# X509_ExtCertificateIssuer : None
+# X509_ExtCertificatePolicies : None
+# X509_ExtComment : None
+# X509_ExtDefault : None
+# X509_ExtDeltaCRLIndicator : None
+# X509_ExtDistributionPoint : None
+# X509_ExtDistributionPointName : None
+# X509_ExtExtendedKeyUsage : None
+# X509_ExtFreshestCRL : None
+# X509_ExtFullName : None
+# X509_ExtGeneralSubtree : None
+# X509_ExtInhibitAnyPolicy : None
+# X509_ExtInvalidityDate : None
+# X509_ExtIssuerAltName : None
+# X509_ExtIssuingDistributionPoint : None
+# X509_ExtKeyUsage : None
+# X509_ExtNameConstraints : None
+# X509_ExtNameRelativeToCRLIssuer : None
+# X509_ExtNetscapeCertType : None
+# X509_ExtNoticeReference : None
+# X509_ExtPolicyConstraints : None
+# X509_ExtPolicyInformation : None
+# X509_ExtPolicyMappings : None
+# X509_ExtPolicyQualifierInfo : None
+# X509_ExtPrivateKeyUsagePeriod : None
+# X509_ExtQcStatement : None
+# X509_ExtQcStatements : None
+# X509_ExtReasonCode : None
+# X509_ExtSubjInfoAccess : None
+# X509_ExtSubjectAltName : None
+# X509_ExtSubjectDirectoryAttributes : None
+# X509_ExtSubjectKeyIdentifier : None
+# X509_ExtUserNotice : None
+# X509_Extension : None
+# X509_Extensions : None
+# X509_GeneralName : None
+# X509_IPAddress : None
+# X509_OtherName : None
+# X509_PolicyMapping : None
+# X509_RDN   : None
+# X509_RFC822Name : None
+# X509_RegisteredID : None
+# X509_RevokedCertificate : None
+# X509_SubjectPublicKeyInfo : None
+# X509_TBSCertList : None
+# X509_TBSCertificate : None
+# X509_URI   : None
+# X509_Validity : None
+# X509_X400Address : None
+# ZCLGeneralReadAttributes : General Domain: Command Frame Payload: read_attributes
+# ZCLGeneralReadAttributesResponse : General Domain: Command Frame Payload: read_attributes_response
+# ZCLMeteringGetProfile : Metering Cluster: Get Profile Command (Server: Received)
+# ZCLPriceGetCurrentPrice : Price Cluster: Get Current Price Command (Server: Received)
+# ZCLPriceGetScheduledPrices : Price Cluster: Get Scheduled Prices Command (Server: Received)
+# ZCLPricePublishPrice : Price Cluster: Publish Price Command (Server: Generated)
+# ZCLReadAttributeStatusRecord : ZCL Read Attribute Status Record
+# ZEP1       : Zigbee Encapsulation Protocol (V1)
+# ZEP2       : Zigbee Encapsulation Protocol (V2)
+# ZigBeeBeacon : ZigBee Beacon Payload
+# ZigbeeAppCommandPayload : Zigbee Application Layer Command Payload
+# ZigbeeAppDataPayload : Zigbee Application Layer Data Payload (General APS Frame Format)
+# ZigbeeAppDataPayloadStub : Zigbee Application Layer Data Payload for Inter-PAN Transmission
+# ZigbeeClusterLibrary : Zigbee Cluster Library (ZCL) Frame
+# ZigbeeNWK  : Zigbee Network Layer
+# ZigbeeNWKCommandPayload : Zigbee Network Layer Command Payload
+# ZigbeeNWKStub : Zigbee Network Layer for Inter-PAN Transmission
+# ZigbeeSecurityHeader : Zigbee Security Header
+#
+# TIP: You may use explore() to navigate through all layers using a clear GUI
+# >>> lsc()
+# IPID_count          : Identify IP id values classes in a list of packets
+# arpcachepoison      : Poison target's cache with (your MAC,victim's IP) couple
+# arping              : Send ARP who-has requests to determine which hosts are up
+# arpleak             : Exploit ARP leak flaws, like NetBSD-SA2017-002.
+# bind_layers         : Bind 2 layers on some specific fields' values.
+# bridge_and_sniff    : Forward traffic between interfaces if1 and if2, sniff and return
+# chexdump            : Build a per byte hexadecimal representation
+# computeNIGroupAddr  : Compute the NI group Address. Can take a FQDN as input parameter
+# corrupt_bits        : Flip a given percentage or number of bits from a string
+# corrupt_bytes       : Corrupt a given percentage or number of bytes from a string
+# defrag              : defrag(plist) -> ([not fragmented], [defragmented],
+# defragment          : defragment(plist) -> plist defragmented as much as possible
+# dhcp_request        : Send a DHCP discover request and return the answer
+# dyndns_add          : Send a DNS add message to a nameserver for "name" to have a new "rdata"
+# dyndns_del          : Send a DNS delete message to a nameserver for "name"
+# etherleak           : Exploit Etherleak flaw
+# explore             : Function used to discover the Scapy layers and protocols.
+# fletcher16_checkbytes: Calculates the Fletcher-16 checkbytes returned as 2 byte binary-string.
+# fletcher16_checksum : Calculates Fletcher-16 checksum of the given buffer.
+# fragleak            : --
+# fragleak2           : --
+# fragment            : Fragment a big IP datagram
+# fuzz                :
+# getmacbyip          : Return MAC address corresponding to a given IP address
+# getmacbyip6         : Returns the MAC address corresponding to an IPv6 address
+# hexdiff             : Show differences between 2 binary strings
+# hexdump             : Build a tcpdump like hexadecimal view
+# hexedit             : Run hexedit on a list of packets, then return the edited packets.
+# hexstr              : Build a fancy tcpdump like hex from bytes.
+# import_hexcap       : Imports a tcpdump like hexadecimal view
+# is_promisc          : Try to guess if target is in Promisc mode. The target is provided by its ip.
+# linehexdump         : Build an equivalent view of hexdump() on a single line
+# ls                  : List  available layers, or infos on a given layer class or name.
+# neighsol            : Sends and receive an ICMPv6 Neighbor Solicitation message
+# overlap_frag        : Build overlapping fragments to bypass NIPS
+# promiscping         : Send ARP who-has requests to determine which hosts are in promiscuous mode
+# rdpcap              : Read a pcap or pcapng file and return a packet list
+# report_ports        : portscan a target and output a LaTeX table
+# restart             : Restarts scapy
+# send                : Send packets at layer 3
+# sendp               : Send packets at layer 2
+# sendpfast           : Send packets at layer 2 using tcpreplay for performance
+# sniff               :
+# split_layers        : Split 2 layers previously bound.
+# sr                  : Send and receive packets at layer 3
+# sr1                 : Send packets at layer 3 and return only the first answer
+# sr1flood            : Flood and receive packets at layer 3 and return only the first answer
+# srbt                : send and receive using a bluetooth socket
+# srbt1               : send and receive 1 packet using a bluetooth socket
+# srflood             : Flood and receive packets at layer 3
+# srloop              : Send a packet at layer 3 in loop and print the answer each time
+# srp                 : Send and receive packets at layer 2
+# srp1                : Send and receive packets at layer 2 and return only the first answer
+# srp1flood           : Flood and receive packets at layer 2 and return only the first answer
+# srpflood            : Flood and receive packets at layer 2
+# srploop             : Send a packet at layer 2 in loop and print the answer each time
+# tcpdump             : Run tcpdump or tshark on a list of packets.
+# tdecode             :
+# traceroute          : Instant TCP traceroute
+# traceroute6         : Instant TCP traceroute using IPv6
+# traceroute_map      : Util function to call traceroute on multiple targets, then
+# tshark              : Sniff packets and print them calling pkt.summary().
+# wireshark           :
+# wrpcap              : Write a list of packets to a pcap file
+# >>> cof
+# ---------------------------------------------------------------------------
+# NameError                                 Traceback (most recent call last)
+# <ipython-input-3-02f1131b2a32> in <module>
+# ----> 1 cof
+#
+# NameError: name 'cof' is not defined
+# >>> conf
+# ASN1_default_codec = <ASN1Codec BER[1]>
+# AS_resolver = <scapy.as_resolvers.AS_resolver_multi object at 0x000001B0CB7C...
+# BTsocket   = <BluetoothRFCommSocket: read/write packets on a connected L2CAP...
+# L2listen   = <L2pcapListenSocket: read packets at layer 2 using libpcap>
+# L2socket   = <L2pcapSocket: read/write packets at layer 2 using only libpcap>
+# L3socket   = <L3pcapSocket: read/write packets at layer 3 using only libpcap>
+# L3socket6  = functools.partial(<L3pcapSocket: read/write packets at layer 3 ...
+# USBsocket  = None
+# auto_crop_tables = True
+# auto_fragment = True
+# bufsize    = 65536
+# cache_iflist = {'\\Device\\NPF_{17117062-26C1-48AD-9530-F2DC7AD8BF0F}': ('Nd...
+# checkIPID  = False
+# checkIPaddr = True
+# checkIPinIP = True
+# checkIPsrc = True
+# check_TCPerror_seqack = False
+# color_theme = <DefaultTheme>
+# commands   = IPID_count : Identify IP id values classes in a list of packets...
+# contribs   = {}
+# crypto_valid = True
+# crypto_valid_advanced = True
+# crypto_valid_recent = True
+# debug_dissector = False
+# debug_match = False
+# debug_tls  = False
+# default_l2 = <class 'scapy.packet.Raw'>
+# dot15d4_protocol = None
+# emph       = <Emphasize []>
+# except_filter = ''
+# extensions_paths = '.'
+# fancy_prompt = True
+# geoip_city = None
+# histfile   = 'C:\\Users\\jgoel\\.scapy_history'
+# iface      = <NetworkInterface [Realtek RTL8723DE 802.11b/g/n PCIe Adapter] ...
+# iface6     = <NetworkInterface [Npcap Loopback Adapter] {A1BBFCF0-FE79-4C64-...
+# interactive = True
+# interactive_shell = ''
+# ipv6_enabled = True
+# l2types    = 0x0 -> Loopback (Loopback) 0x1 <- Dot3 (802.3) 0x1 <-> Ether (E...
+# l3types    = 0x3 -> IP (IP) 0x800 <-> IP (IP) 0x806 <-> ARP (ARP) 0x86dd <->...
+# layers     = Packet : <member 'name' of 'Packet' objects> NoPayload : <membe...
+# load_layers = ['bluetooth', 'bluetooth4LE', 'dhcp', 'dhcp6', 'dns', 'dot11',...
+# logLevel   = 20
+# mib        = <MIB - 343 elements>
+# min_pkt_size = 60
+# neighbor   = Ether -> LLC Dot3 -> LLC Dot3 -> SNAP Ether -> Dot1Q Ether -> A...
+# netcache   = arp_cache: 0 valid items. Timeout=120s in6_neighbor: 0 valid it...
+# noenum     = <Resolve []>
+# padding    = 1
+# padding_layer = <class 'scapy.packet.Padding'>
+# prog       = cmd = 'C:\\WINDOWS\\system32\\cmd.exe' cscript = 'C:\\WINDOWS\\...
+# promisc    = True
+# prompt     = '>>> '
+# raw_layer  = <class 'scapy.packet.Raw'>
+# raw_summary = False
+# recv_poll_rate = 0.05
+# resolve    = <Resolve []>
+# route      = Network Netmask Gateway Iface Output IP Metric 0.0.0.0 0.0.0.0 ...
+# route6     = Destination Next Hop Iface Src candidates Metric ::1/128 :: Npc...
+# session    = ''
+# sniff_promisc = 1
+# stats_classic_protocols = [<class 'scapy.layers.inet.TCP'>, <class 'scapy.la...
+# stats_dot11_protocols = [<class 'scapy.layers.inet.TCP'>, <class 'scapy.laye...
+# stealth    = 'not implemented'
+# temp_files = []
+# teredoPrefix = '2001::'
+# teredoServerPort = 3544
+# use_bpf    = False
+# use_dnet   = False
+# use_npcap  = True
+# use_pcap   = True
+# use_pypy   = False
+# verb       = 2
+# version    = '2.4.3'
+# warning_threshold = 5
+# wepkey     = ''
+# >>> help
+# Type help() for interactive help, or help(object) for help about object.
+# >>> pack=IP(dst="dgtsec.com",ttl=10)
+# >>> pack
+# <IP  ttl=10 dst=Net('dgtsec.com') |>
+# >>> pack.show()
+# ###[ IP ]###
+#   version= 4
+#   ihl= None
+#   tos= 0x0
+#   len= None
+#   id= 1
+#   flags=
+#   frag= 0
+#   ttl= 10
+#   proto= ip
+#   chksum= None
+#   src= 192.168.43.117
+#   dst= Net('dgtsec.com')
+#   \options\
+#
+# >>> conf.color_theme=ColorOnBlackTheme()
+# >>> pack.show()
+# ###[ IP ]###
+#   version= 4
+#   ihl= None
+#   tos= 0x0
+#   len= None
+#   id= 1
+#   flags=
+#   frag= 0
+#   ttl= 10
+#   proto= ip
+#   chksum= None
+#   src= 192.168.43.117
+#   dst= Net('dgtsec.com')
+#   \options\
+# >>> IFACES
+# INDEX  IFACE                                                IP              MAC
+# 55     Npcap Loopback Adapter                      127.0.0.1       00:00:00:00:00:00
+# 9      Microsoft Wi-Fi Direct Virtual Adapter      169.254.105.84  fe:01:7c:14:a0:85
+# 6      Microsoft Wi-Fi Direct Virtual Adapter #2   169.254.134.51  fc:01:7c:14:a0:85
+# 18     Realtek PCIe GBE Family Controller          169.254.50.205  b4:b6:86:3b:dd:1f
+# 11     Realtek RTL8723DE 802.11b/g/n PCIe Adapter  192.168.43.117  fc:01:7c:14:a0:85
+# -1     [Unknown] NdisWan Adapter                   None            ff:ff:ff:ff:ff:ff
+# -3     [Unknown] NdisWan Adapter                   None            ff:ff:ff:ff:ff:ff
+# -2     [Unknown] NdisWan Adapter                   None            ff:ff:ff:ff:ff:ff
+# >>> sniffer=sniff(iface="Realtek RTL8723DE 802.11b/g/n PCIe Adapter",count=15)
+# >>> sniffer
+# <Sniffed: TCP:13 UDP:0 ICMP:0 Other:2>
+# >>> sniffer.show()
+# 0000 Ether / ARP who has 192.168.43.117 says 192.168.43.1
+# 0001 Ether / ARP is at fc:01:7c:14:a0:85 says 192.168.43.117
+# 0002 Ether / IP / TCP 192.168.43.117:3770 > 40.90.189.152:https PA / Raw
+# 0003 Ether / IP / TCP 192.168.43.117:3770 > 40.90.189.152:https PA / Raw
+# 0004 Ether / IP / TCP 192.168.43.117:3770 > 40.90.189.152:https PA / Raw
+# 0005 Ether / IP / TCP 192.168.43.117:3770 > 40.90.189.152:https PA / Raw
+# 0006 Ether / IP / TCP 40.90.189.152:https > 192.168.43.117:3770 PA / Raw
+# 0007 Ether / IP / TCP 192.168.43.117:3770 > 40.90.189.152:https A
+# 0008 Ether / IP / TCP 40.90.189.152:https > 192.168.43.117:3770 A
+# 0009 Ether / IP / TCP 192.168.43.117:4182 > 3.235.82.187:https PA / Raw
+# 0010 Ether / IP / TCP 40.90.189.152:https > 192.168.43.117:3770 PA / Raw
+# 0011 Ether / IP / TCP 192.168.43.117:3770 > 40.90.189.152:https A
+# 0012 Ether / IP / TCP 192.168.43.117:4182 > 3.235.82.187:https PA / Raw
+# 0013 Ether / IP / TCP 40.90.189.152:https > 192.168.43.117:3770 A
+# 0014 Ether / IP / TCP 40.90.189.152:https > 192.168.43.117:3770 PA / Raw
+# >>> sniffer[5].show()
+# ###[ Ethernet ]###
+#   dst= d0:16:b4:7f:db:c6
+#   src= fc:01:7c:14:a0:85
+#   type= IPv4
+# ###[ IP ]###
+#      version= 4
+#      ihl= 5
+#      tos= 0x0
+#      len= 83
+#      id= 39497
+#      flags=
+#      frag= 0
+#      ttl= 128
+#      proto= tcp
+#      chksum= 0xce4b
+#      src= 192.168.43.117
+#      dst= 40.90.189.152
+#      \options\
+# ###[ TCP ]###
+#         sport= 3770
+#         dport= https
+#         seq= 949701092
+#         ack= 2772846344
+#         dataofs= 5
+#         reserved= 0
+#         flags= PA
+#         window= 257
+#         chksum= 0x3c58
+#         urgptr= 0
+#         options= []
+# ###[ Raw ]###
+#            load= '\x17\x03\x03\x00&\x00\x00\x00\x00\x00\x00\x00+\xfe\xed\xe6$\x82R\xf6%\xb1r\xbc\xf7\xdd\x95\xec\xd9_\xd5q\xa5XWA\xb0\x8e\xed\xa1\xb3\xbf,'
+#
+# >>> sniffer[5].load
+# b'\x17\x03\x03\x00&\x00\x00\x00\x00\x00\x00\x00+\xfe\xed\xe6$\x82R\xf6%\xb1r\xbc\xf7\xdd\x95\xec\xd9_\xd5q\xa5XWA\xb0\x8e\xed\xa1\xb3\xbf,'
+# >>> hexdump(sniffer[5].load)
+# 0000  17 03 03 00 26 00 00 00 00 00 00 00 2B FE ED E6  ....&.......+...
+# 0010  24 82 52 F6 25 B1 72 BC F7 DD 95 EC D9 5F D5 71  $.R.%.r......_.q
+# 0020  A5 58 57 41 B0 8E ED A1 B3 BF 2C                 .XWA......,
+# >>> hexdump(sniffer.load)
+# ---------------------------------------------------------------------------
+# AttributeError                            Traceback (most recent call last)
+# <ipython-input-18-e9ec3229ec45> in <module>
+# ----> 1 hexdump(sniffer.load)
+#
+# c:\users\jgoel\anaconda3\lib\site-packages\scapy\plist.py in __getattr__(self, attr)
+#     107
+#     108     def __getattr__(self, attr):
+# --> 109         return getattr(self.res, attr)
+#     110
+#     111     def __getitem__(self, item):
+#
+# AttributeError: 'list' object has no attribute 'load'
+# >>> hexdump(sniffer[5])
+# 0000  D0 16 B4 7F DB C6 FC 01 7C 14 A0 85 08 00 45 00  ........|.....E.
+# 0010  00 53 9A 49 00 00 80 06 CE 4B C0 A8 2B 75 28 5A  .S.I.....K..+u(Z
+# 0020  BD 98 0E BA 01 BB 38 9B 49 E4 A5 46 47 08 50 18  ......8.I..FG.P.
+# 0030  01 01 3C 58 00 00 17 03 03 00 26 00 00 00 00 00  ..<X......&.....
+# 0040  00 00 2B FE ED E6 24 82 52 F6 25 B1 72 BC F7 DD  ..+...$.R.%.r...
+# 0050  95 EC D9 5F D5 71 A5 58 57 41 B0 8E ED A1 B3 BF  ..._.q.XWA......
+# 0060  2C                                               ,
+# >>> sniffer=sniff(filter="port 443 and host 162.241.24.197",count=15,prn=lambda x:x.summary())
+#
+# Ether / IP / TCP 192.168.43.117:4226 > 162.241.24.197:https FA
+# Ether / IP / TCP 192.168.43.117:4226 > 162.241.24.197:https RA
+# Ether / IP / TCP 192.168.43.117:4238 > 162.241.24.197:https S
+# Ether / IP / TCP 192.168.43.117:4239 > 162.241.24.197:https S
+# Ether / IP / TCP 162.241.24.197:https > 192.168.43.117:4238 SA
+# Ether / IP / TCP 192.168.43.117:4238 > 162.241.24.197:https A
+# Ether / IP / TCP 192.168.43.117:4238 > 162.241.24.197:https PA / Raw
+# Ether / IP / TCP 162.241.24.197:https > 192.168.43.117:4239 SA
+# Ether / IP / TCP 192.168.43.117:4239 > 162.241.24.197:https A
+# Ether / IP / TCP 192.168.43.117:4239 > 162.241.24.197:https PA / Raw
+# Ether / IP / TCP 162.241.24.197:https > 192.168.43.117:4238 A
+# Ether / IP / TCP 162.241.24.197:https > 192.168.43.117:4238 A / Raw
+# Ether / IP / TCP 192.168.43.117:4238 > 162.241.24.197:https A
+# Ether / IP / TCP 162.241.24.197:https > 192.168.43.117:4238 PA / Raw
+# Ether / IP / TCP 192.168.43.117:4238 > 162.241.24.197:https PA / Raw
+# >>> wrpcap("dgt.cap",sniffer)
+# >>> read_cap=rdcap("dgt.cap")
+# ---------------------------------------------------------------------------
+# NameError                                 Traceback (most recent call last)
+# <ipython-input-3-813d23197c8d> in <module>
+# ----> 1 read_cap=rdcap("dgt.cap")
+#
+# NameError: name 'rdcap' is not defined
+# >>> read_cap=rdpcap("dgt.cap")
+# >>> read_cap[5]
+# <Ether  dst=d0:16:b4:7f:db:c6 src=fc:01:7c:14:a0:85 type=IPv4 |<IP  version=4 ihl=5 tos=0x0 len=40 id=35505 flags=DF frag=0 ttl=128 proto=tcp chksum=0xc84a src=192.168.43.117 dst=162.241.24.197 |<TCP  sport=4238 dport=https seq=4026773263 ack=2622719643 dataofs=5 reserved=0 flags=A window=258 chksum=0x32b3 urgptr=0 |>>>
+
+# packet=IP(dst="dgtsec.com")/ICMP()/"You are not secured"
+# >>> sr(packet)
+# Begin emission:
+# ..Finished sending 1 packets.
+# ...*
+# Received 6 packets, got 1 answers, remaining 0 packets
+# (<Results: TCP:0 UDP:0 ICMP:1 Other:0>,
+#  <Unanswered: TCP:0 UDP:0 ICMP:0 Other:0>)
+# >>> resp=sr(packet)
+# Begin emission:
+# Finished sending 1 packets.
+# ..*
+# Received 3 packets, got 1 answers, remaining 0 packets
+# >>> resp[0].summary()
+# IP / ICMP 192.168.43.117 > 162.241.24.197 echo-request 0 / Raw ==> IP / ICMP 162.241.24.197 > 192.168.43.117 echo-reply 0 / Raw
+# >>>
