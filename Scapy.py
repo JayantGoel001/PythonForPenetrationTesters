@@ -1,4 +1,5 @@
 from scapy.all import *
+from scapy.layers.inet import TCP, IP
 
 
 def floodZ(src, tar):
